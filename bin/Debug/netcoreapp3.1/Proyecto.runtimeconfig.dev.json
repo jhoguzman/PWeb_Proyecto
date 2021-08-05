@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\gusma\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\gusma\\.nuget\\packages"
-    ]
-  }
-}
