@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Registar";
+}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/4cb92db068.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contener">
+        <div class="conta">
+            <div class="content">
+                <main class="main">
+                    
+                    <h1>Iniciar Registro</h1>
+                    <dev class="panelRegistro">
+                        <i class="far fa-user user2"></i>
+                        <input class="input" type="text" placeholder="        Nombre">
+                        </input>
+
+                        <i class="far iconCorreo fa-envelope"></i>
+                        <input class="input" type="text" placeholder="        Correo">
+                        </input>
+
+                        <i class="fas iconTelefono fa-phone"></i>
+                        <input class="input" type="text" placeholder="        Telefono">
+                        </input>
+
+                        <i class="far fa-user user1"></i>
+                        <input class="input" type="text" placeholder="        Usuario">
+                        </input>
+
+                        <i class="fas lock1 fa-lock-open"></i>
+                        <input class="input" type="password" placeholder="        Contraseña">
+                        
+                        </input>
+
+                        <a class="boton" href="~/Login/main" >Aceptar</a>
+                    </dev>
+
+                    <p class="title">
+                        Desea realizar,
+                        <a href="~/Login/Login"> Inicio de Sesion.</a>
+                    </p>
+                </main>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+</body>
+
+</html>
