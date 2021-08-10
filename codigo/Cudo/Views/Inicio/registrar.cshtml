@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Registar";
+    
+}
+
+
+<div class="contener">
+    <div class="conta">
+        <div class="content">
+            <main class="main">
+
+                <h1>Iniciar Registro</h1>
+                <form class="panelRegistro" id="fvalida">
+                    <i class="far fa-user user2"></i>
+                    <input class="input" type="text" id="name" name="nombre" placeholder="        Nombre">
+                    </input>
+
+                    <i class="far iconCorreo fa-envelope"></i>
+                    <input class="input" type="text" id="email" placeholder="        Correo">
+                    </input>
+
+                    <i class="fas iconTelefono fa-phone"></i>
+                    <input class="input" type="text" id="phone" placeholder="        Telefono">
+                    </input>
+
+                    <i class="far fa-user user1"></i>
+                    <input class="input" type="text" id="userR" placeholder="        Usuario">
+                    </input>
+
+                    <i class="fas lock1 fa-lock-open"></i>
+                    <input class="input" type="password" id="lockR" placeholder="        Contraseña">
+
+                    </input>
+                    <div class="wrapper"> 
+    
+                        <div class="button animation">
+                            <p onclick="valida_envia()" >Aceptar</p>
+                        </div> 
+                        
+                    </div>
+                    
+                </form>
+
+                <p class="title">
+                    Desea realizar,
+                    <a href="~/Inicio/Login"> Inicio de Sesion.</a>
+                </p>
+            </main>
+        </div>
+
+    </div>
+    <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="~/js/site.js"></script>
+   
+
+</div>
